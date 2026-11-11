@@ -23,6 +23,9 @@
             <a class="nav-link ${pageContext.request.requestURI.substring(pageContext.request.requestURI.lastIndexOf("/")) eq '/about.jsp' ? ' active' : ''}" aria-current="page" href="${pageContext.request.contextPath}/about.jsp">About</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link ${pageContext.request.requestURI.substring(pageContext.request.requestURI.lastIndexOf("/")) eq '/Users' ? ' active' : ''}" aria-current="page" href="${pageContext.request.contextPath}/Users">Users</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#">Link</a>
           </li>
           <li class="nav-item">
